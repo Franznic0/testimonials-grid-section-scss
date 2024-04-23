@@ -21,6 +21,12 @@ $fw-regular:500;
 $fw-semibold:600;
 $ff: "Barlow Semi Condensed", sans-serif;
 
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 @mixin grid($columns, $rows, $gap) {
     display: grid;
     grid-template-columns: $columns;
@@ -28,8 +34,9 @@ $ff: "Barlow Semi Condensed", sans-serif;
     gap: $gap;
 };
 
-@mixin flex {
+@mixin flex($justify, $align, $gap) {
     display: flex;
+    flex-direction: column;
     justify-content: $justify;
     align-items: $align;
     gap: $gap;
