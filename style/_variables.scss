@@ -9,9 +9,11 @@ $white: hsl(0, 0%, 100%);
 $fc-primary: hsl(0, 0%, 81%);
 $bg-primary: hsl(210, 46%, 95%);
 
-// $fc-verified-dark: ;
-$fc-verified-light: hsl(0, 0%, 81%);
-$fc-paragraph: hsl(0, 0%,50%);
+// font colors modified
+$fc-verified-light:  hsla(0, 0%, 81%, 0.5);
+$fc-paragraph: hsl(0, 0%, 81%, 0.7);
+$fc-verified-dark:  hsl(217, 19%, 35%, 0.5);
+$fc-paragraph-darker:  hsl(217, 19%, 35%, 0.7);
 
 // 1. "Verified Graduate" has the same color as the person's name with 50% opacity
 // 2. Review paragraphs inside the quotations have the same color as well, but are at 70% opacity

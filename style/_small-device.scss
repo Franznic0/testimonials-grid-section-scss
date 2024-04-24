@@ -1,0 +1,30 @@
+
+@media screen and (max-width: 600px) {
+    .container {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+    }    
+    
+#daniel {
+    grid-column: span 1;
+    order: 1;
+}
+
+#jonathan {
+    order: 2;
+}
+
+#jeanette {
+    order: 3;
+}
+
+#patrick {
+    grid-column: span 1;
+    order: 4;
+}
+
+#kira {
+    grid-row: span 1;
+    order: 5;
+}
+}
